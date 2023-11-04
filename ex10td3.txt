@@ -1,0 +1,7 @@
+il y'a un problème dans main qui est sans type 
+
+donc si le code etait correcte le programme va afficher :
+
+dans f : 999
+dans main : 999
+suite main
