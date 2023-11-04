@@ -1,0 +1,21 @@
+
+a. Que se passe-t-il avec ces instructions :
+
+point <char> p (60, 65) ;
+p.affiche () ;
+
+ 
+La fonction affiche() affiche les coordonnées du point p. Dans ce cas, les coordonnées sont 60 et 65,
+ qui sont des valeurs de type char.
+puisque le type char est pour les characteres et vous avez donner des nombres 
+donc le programme va afficher
+Coordonnees : A Q
+
+b. Comment faut-il modifier la définition de notre patron pour que les instructions
+précédentes affichent bien :
+Coordonnees : 60 65
+
+on doit faire :
+
+point <int> p(60, 65):
+p.affiche();
